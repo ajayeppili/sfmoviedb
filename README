@@ -1,0 +1,18 @@
+# README
+
+ AndroidRPT: Project to work with Open Movie DB and Android UI
+
+# Building an apk
+- Download repo, navigate to root directory
+- Execute the "gradle clean build"
+- find apk file under $PROJECT/app/build/outputs/apk/app-debug.apk
+
+# Version 1.0
+ - App opens with two tabs, one for Search and other for Favorites
+ - Search bar is available on the top of the Tab.
+ - Search text needs to be entered and submitted (by clicking "Return")
+ - Movie details are populated in the list
+ Limitations:
+ - App does not show all the details (in detail view) when a movie is selected
+   and favorites
+ - DB is not being as of now to persist FAVORITE movies,

@@ -1,0 +1,55 @@
+#Android build files#
+######################
+Android/V1/Libraries/SDKProject/gen/*
+Android/V1/Libraries/SDKProject/bin/*
+Android/V1/Sample/SampleSource/gen/*
+Android/V1/Sample/SampleSource/bin/*
+
+Android/V2/Libraries/SDKProject/gen/*
+Android/V2/Libraries/SDKProject/bin/*
+Android/V2/Sample/SampleSource/gen/*
+Android/V2/Sample/SampleSource/bin/*
+Android/V2/Release/Release/Sample/gen/*
+Android/V2/Release/Release/Sample/bin/*
+Android/V2/Release/Release/Sample/.classpath
+Android/V2/Release/Release/Sample/.project
+
+# OS Generated Files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.Icon?
+ehthumbs.db
+Thumbs.db
+
+#Android Gitignore#
+###################
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Eclipse project files
+.classpath
+.project
+
+
+# Android Studio
+.gradle
+.idea
+build/
