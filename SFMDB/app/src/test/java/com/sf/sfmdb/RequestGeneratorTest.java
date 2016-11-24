@@ -36,8 +36,15 @@ public class RequestGeneratorTest {
     @Test
     public void generateSearchByTitleQuery_tparam() {
 
-        String output = RequestGenerator.generateSearchByTitleQuery("Ring");
+        String output = RequestGenerator.generateSearchQueryByTitle("Ring");
         boolean flag = output!= null && output.contains(RequestGenerator.API_URL) && output.contains(RequestGenerator.TITLE_SEARCH_PARAM_KEY);
+        assertTrue(flag);
+    }
+
+    @Test
+    public void generateSearchByIdQuery_iparam() {
+        String output = RequestGenerator.generateSearchQueryById("Ring");
+        boolean flag = output!= null && output.contains(RequestGenerator.API_URL) && output.contains(RequestGenerator.ID_SEARCH_PARAM_KEY);
         assertTrue(flag);
     }
 }
